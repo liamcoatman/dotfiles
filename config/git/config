@@ -1,0 +1,13 @@
+[user]
+    name = Liam Coatman
+    email = liam.coatman@gmail.com
+[core]
+    excludesfile = ~/.config/git/ignore
+[fetch]
+    prune = true
+[push]
+    followTags = true
+[commit]
+    verbose = true
+[alias]
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit

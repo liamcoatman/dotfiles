@@ -3,6 +3,7 @@
     email = liam.coatman@gmail.com
 [core]
     excludesfile = ~/.config/git/ignore
+    editor = nvim
 [fetch]
     prune = true
 [push]
@@ -11,3 +12,4 @@
     verbose = true
 [alias]
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    st = status

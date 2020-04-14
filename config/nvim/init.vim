@@ -5,7 +5,7 @@ call plug#begin('~/.local/share/nvim/plugins')
 " UI Styling
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'rakr/vim-one'
+Plug 'morhetz/gruvbox'
 
 " Tools
 Plug 'srstevenson/vim-picker' " Fuzzy file searching
@@ -97,5 +97,5 @@ if (empty($TMUX))
   endif
 endif
 
-colorscheme one
-set background=light
+colorscheme gruvbox
+set background=dark

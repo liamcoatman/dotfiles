@@ -2,7 +2,7 @@
     name = Liam Coatman
     email = liam.coatman@gmail.com
 [core]
-    excludesfile = ~/.config/git/ignore
+	excludesfile = /Users/liam/.gitignore
     editor = nvim
 [fetch]
     prune = true

@@ -15,7 +15,6 @@ Plug 'tpope/vim-fugitive'
 " Coding
 Plug 'ervandew/supertab' " Tab completion
 Plug 'Raimondi/delimitMate' " Auto close quotes etc.
-Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'airblade/vim-gitgutter' " Show git diff indicators
 Plug 'sheerun/vim-polyglot' " Language pack
 Plug 'srstevenson/vim-topiary' " Clean whitespace on save
@@ -24,11 +23,6 @@ Plug 'tpope/vim-vinegar' " Improvements to directory browser
 Plug 'w0rp/ale' " Asychronous lint engine
 
 call plug#end()
-
-" Options for rainbow_parentheses
-let g:rainbow#blacklist = [11]
-let g:rainbow#pairs = [['(', ')'], ['[', ']'], ['{', '}']]
-autocmd FileType * RainbowParentheses
 
 " Options for ale
 let g:ale_python_mypy_options = '--ignore-missing-imports'
@@ -97,5 +91,3 @@ if (empty($TMUX))
   endif
 endif
 
-colorscheme gruvbox
-set background=dark
